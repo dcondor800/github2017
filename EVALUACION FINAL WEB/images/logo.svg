@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="206" height="94" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect id="svg_6" height="90.000003" width="201.999997" y="2" x="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="4" stroke="#7f3f00" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="40" x="97.999994" stroke-width="0" stroke="#000000" fill="#ffffff">David Condor</text>
+  <line id="svg_2" y2="50" x2="174.999994" y1="50" x1="22.999994" stroke-width="5" stroke="#7f3f00" fill="none"/>
+  <text transform="matrix(0.643655, 0, 0, 0.644629, 84.4894, 72.6871)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_3" y="-2.335613" x="17.074799" stroke-width="0" stroke="#7f3f00" fill="#ffffff">Diseñador Web</text>
+  <path id="svg_7" d="m151.314392,72.409027c0.364075,-1.606461 0.861481,-2.966949 1.333893,-3.645187c0.506256,-0.726349 0.281738,-1.04126 -0.240234,-0.337463c-0.219696,0.296188 -0.282501,0.081085 -0.282501,-0.967789c0,-2.502625 0.962067,-4.051315 3.276245,-5.274292c1.958008,-1.035217 3.401733,-2.199219 3.999939,-3.225449l0.487915,-0.836441l0,1.455185c0,1.799271 -0.413818,4.517929 -0.871887,5.727386c-0.485962,1.283142 -2.151855,3.651779 -2.96933,4.22226c-0.732422,0.51088 -2.2966,0.661194 -3.132324,0.300873c-0.416748,-0.17926 -0.548737,-0.041855 -0.765015,0.79306c-0.143494,0.555374 -0.260986,1.345337 -0.260986,1.755829c0,0.465881 -0.138306,0.745956 -0.368286,0.745956c-0.273956,0 -0.32724,-0.184586 -0.207428,-0.713928z" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke="#ffffff" fill="#000000"/>
+ </g>
+</svg>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		
+		<img src="images/logo.svg" alt="Logo" width="200px">
+		<h1>Hoja de Vida</h1>
+		<h2>David Cóndor Villanueva</h2>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="educacion.html">Educación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<h2>Educacion</h2>
+		
+		<table cellspacing=0 cellpadding=10 border=1>
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institucióin</th>
+					<th>Descripcion</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1999</td>
+					<td>Universidad de Lima</td>
+					<td>Ingenieria de Sistemas</td>
+					<td>Lima</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2005</td>
+					<td>Universidad UPC</td>
+					<td>Maestria Redes</td>
+					<td>Lima</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2016</td>
+					<td>Next University</td>
+					<td>Desarrollo Web / Javascript / Ecommerce</td>
+					<td>Lima</td>
+					<td>Sí</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+		<h2>Agregar educación</h2>
+		<form action="" name="formulario" autocomplete="on">
+			<label for="anio">Año</label>
+			<select>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+				<option>2005</option>
+				<option>2006</option>
+				<option>2007</option>
+				<option>2008</option>
+				<option>2009</option>
+				<option>2010</option>
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+			</select>
+			<br>
+			<br>
+			<label for="institucion">Institución</label>
+			<input type="text" id="institucion" name="institucion" required><br><br>
+			<label for="lugar">Lugar</label>
+			<textarea name="lugar" id="lugar" cols="30" rows="10" required></textarea><br><br>
+			<label for="estado">¿Culminó?</label>
+			<b>Sí</b><input type="radio" name="estado">
+			<b>No</b><input type="radio" name="estado">
+			<br>
+			<br>
+			<input type="submit" value="Agregar">
+		</form>
+		<br>
+		<br>
+
+	</section>
+
+	<footer>
+		@Derechos Reservados
+		<ul>
+			<li><strong>Email:</strong> <a href="mailto:david@classiscorp.com">dcondor79@yahoo.com</a></li>
+			<li><strong>Teléfono:</strong> 94345121 </li>
+			<li><strong>Dirección:</strong> Av del Sur 420 Dpto 502, Surco. Lima- Perú</li>
+		</ul>
+	</footer>
+	
+</body>
+</html>
