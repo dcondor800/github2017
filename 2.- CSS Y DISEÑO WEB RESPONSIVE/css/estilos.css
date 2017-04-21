@@ -1,0 +1,203 @@
+body{
+  background-color: #02010a;
+}
+
+#contenedor{
+  max-width: 900px;
+  margin: auto;
+  animation: slidein 1s;
+}
+
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  font-family: 'Dancing Script';
+}
+
+#titulo{
+  padding-left: 10px;
+  text-shadow: 2px 2px #02010a;
+}
+
+header #menu a{
+
+  color: #fff;
+  margin-right: 40px;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+header #menu .noactive{
+
+
+  text-decoration: underline;
+}
+
+
+#main{
+
+  background: #fff;
+  width: 100%;
+  
+}
+
+#main section #thumb{
+
+ 
+  padding: 5%;
+  background: #82c3a6;
+
+}
+
+#main section #thumb img{
+
+  width: 100%;
+  vertical-align: top;
+  border: 1px solid;
+
+}
+
+
+#secundario{
+
+  background: #d5c75f;
+  width: 100%;
+  display: flex;
+  flex-flow: nowrap;
+  font-family: 'Dancing Script';
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#secundario .imagen1, #secundario .imagen2 {
+
+  text-align: center;
+  margin-top: 15px;
+ 
+  width: 50%;
+}
+
+#img1, #img2{
+
+  box-shadow: 2px 2px #02010a;
+  transition: all 1s ease;
+
+}
+
+#img1:hover{
+ transform:rotate(10deg);
+ box-shadow: 2px 2px #82c3a6;
+}
+
+#img2:hover{
+ transform:translate(20px,-5px);
+ box-shadow: 2px 2px #82c3a6;
+}
+
+
+#secundario img{
+
+  width: 85%;
+  border: 1px solid;
+
+}
+
+footer{
+
+  background: #C6d5c5;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  font-family: 'Dancing Script';
+  font-size: 20px;
+  display: flex;
+  flex-flow: nowrap;
+
+
+}
+
+footer #contacto, footer #terminos, footer #redes, footer #derechos{
+
+    vertical-align: top;
+    text-align: left;
+    width: 25%;
+    padding-left: 5%;
+}
+
+#facebook, #twitter, #whatsapp{
+
+  width: 25px;
+}
+
+
+@media screen and (max-width: 900px){
+
+    #contenedor{
+      width: 100%;
+    }
+
+    #contenedor #titulo h1{
+      font-size: 28px;
+      text-align: center;
+     }
+
+     header{
+      flex-direction: column;
+      padding-bottom: 20px;
+     }
+
+    header #menu a{
+    text-align: center;
+    margin:0px 10px;
+   }
+
+     #secundario{
+      flex-flow: column wrap;
+     }
+
+     #secundario .imagen1, #secundario .imagen2{
+      width: 100%;
+     }
+
+     footer{
+      flex-flow: column wrap;
+      line-height: 16px;
+     }
+
+     footer #contacto, footer #terminos, footer #redes, footer #derechos{
+      width: 100%;
+      font-size: 18px;
+     }
+
+     footer h3{
+      font-size: 24px;
+     }
+}
+
+@-webkit-keyframes slidein{
+
+  0%{
+    margin-top: 150%;
+  }
+
+  60%{
+
+    margin-top: -5%;
+  }
+
+  100%{
+    margin-top: 0%;
+  }
+
+
+}
+
+
+  
+
