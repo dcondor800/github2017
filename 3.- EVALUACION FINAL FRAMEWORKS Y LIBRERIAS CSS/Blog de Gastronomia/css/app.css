@@ -1,0 +1,103 @@
+body{
+	
+	background-image: url('../img/11.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	
+}
+.slogan{
+	text-align: right;
+}
+img{
+	width: 100%;
+}
+.fi-torso{
+	font-size: 2rem;
+}
+.fi-magnifying-glass{
+	color: #fff;
+}
+textarea{
+	min-height: 150px;
+}
+label{
+	margin: 10px;
+}
+.contenedor-noticias{
+	padding: 20px;
+
+}
+.contenedor-principal{
+	background-color: rgba(123,131,157,0.9);
+}
+.barra-lateral{
+
+	background-color: rgba(222,224,245,0.8);
+}
+.noticias{
+	background-color: rgba(255,233,248);
+}
+h3{
+	color: purple;
+	text-decoration: underline;
+}
+h6{
+	color: DeepPink;
+}
+p{
+	color: purple;
+}
+.input-group-label{
+
+	background-color: DeepPink;
+}
+h2{
+	color: pink;
+}
+.boton{
+	text-align: right;
+}
+.button {
+	background-color: DeepPink;
+} 
+.usuario{
+	border: 1px solid pink;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.usuario img{
+	width: 50px;
+}
+.comentario{
+	padding-left: 0;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Small only */
+@media screen and (max-width: 63.9375em) {
+	.contenedor-lateral{
+		display: none;
+	}	
+
+	.latrattoria{
+		font-size: 35px;
+	}
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+	label{
+		margin: 0;
+	}
+}

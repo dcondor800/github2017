@@ -1,0 +1,81 @@
+body{
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-size: 16px;
+	background-color: #6c2029;
+	}
+.encabezado{
+	background: #fff;
+	}
+header .contenedor_logo_redes .redes{
+	text-align: right;
+	line-height: 50px;
+	font-size: 30px;
+	padding-top: 100px;
+	}
+.menu{
+	background-color: #ffac6a;
+	}
+header .contenedor_logo_redes .logo a img{
+
+	width: 150px;
+	padding-bottom: 15px;
+	}
+.contenedor-principal{
+
+	background-color: white;
+	min-height: 500px;
+	border-radius: 0 0 5px 5px;
+	margin-bottom: 20px;
+
+}
+
+article{
+
+	margin-top: 20px;
+	margin-bottom: 30px;
+	/*background-color: #ace1ab;*/
+	min-height: 150px;
+	padding: 20px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+aside{
+
+	margin-top: 20px;
+	margin-bottom: 30px;
+	/*background-color: #6f9af1;*/
+	min-height: 150px;
+	padding: 20px;
+	box-shadow: 5px 5px 5px #888888;
+	
+
+}
+
+.columna-user{
+
+	margin-top: 20px;
+}
+
+.contenedor-principal article img{
+
+	width: 100%;
+	padding: 10px;
+	padding-top: 40px;
+}
+
+@media screen and (max-width: 992px){
+
+header .contenedor_logo_redes .logo{
+	text-align: center;
+	}
+
+header .contenedor_logo_redes .redes{
+	text-align: center;
+	padding-top: 10px;
+	}
+
+aside{
+	display: none;
+}
+	
+}

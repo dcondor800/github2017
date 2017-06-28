@@ -1,0 +1,98 @@
+.menu{
+	min-height: 10rem;
+}
+.logo{
+	width: 40%;
+	border-radius: 5px;
+}
+.slogan{
+	padding-top: 100px;
+	padding-left: 400px;
+}
+.contenedor-principal{
+	position: relative;
+}
+.contenedor-logo{
+	position: absolute;
+	margin-left: 60px;
+	margin-top: -120px;
+}
+body{
+	background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.contenedor{
+	padding-top:100px;
+}
+.contenedor img{
+	width: 70px;
+}
+.contenedor .destinos img{
+	width: 100%;
+	margin-bottom: 10px;
+	border: 3px solid white
+}
+.noticias .autor img{
+	width: 60%;
+	padding-top: 20px;
+}
+.input-field label {
+     color: #FFF;
+   }
+.input-field textarea[class=materialize-textarea]{
+border-bottom: 1px solid #fff;
+box-shadow: 0 1px 0 0 #2196f3;
+}
+
+.input-field textarea[class=materialize-textarea]:focus {
+border-bottom: 1px solid #fff;
+box-shadow: 0 1px 0 0 #2196f3;
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.contenedor-logo{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: -120px;
+	}
+
+	.logo{
+		
+		width: 50%;
+
+	}
+
+	.redes{
+
+		display: none;
+	}
+	
+	.contenedor{
+
+		padding-top: 20px;
+	}
+	.slogan{
+
+		padding-left: 20px;
+	}
+	h5{
+		font-size: 12px;
+	}
+	.contenedor-principal .btn{
+
+		font-size: 10px;
+		width: 15px;
+		text-align: center;
+
+	}
+	.material-icons{
+		font-size: 10px;
+
+	}
+}	
+
+
