@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  username     String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+  ratings      Rating?
+}
+
+model Rating {
+  id             String   @id @default(uuid())
+  userId         String   @unique
+  bulletRating   Int      @default(1200)
+  blitzRating    Int      @default(1200)
+  rapidRating    Int      @default(1200)
+  classicalRating Int     @default(1200)
+  updatedAt      DateTime @updatedAt
+  user           User     @relation(fields: [userId], references: [id])
+}
+
+model Game {
+  id          String   @id @default(uuid())
+  whiteUserId String
+  blackUserId String
+  timeControl String
+  mode        String
+  status      String   @default("waiting")
+  result      String   @default("*")
+  currentFen  String?
+  pgn         String?
+  createdAt   DateTime @default(now())
+  moves       GameMove[]
+}
+
+model GameMove {
+  id         String   @id @default(uuid())
+  gameId     String
+  plyNumber  Int
+  san        String
+  uci        String
+  fenAfter   String
+  createdAt  DateTime @default(now())
+  game       Game     @relation(fields: [gameId], references: [id])
+}
